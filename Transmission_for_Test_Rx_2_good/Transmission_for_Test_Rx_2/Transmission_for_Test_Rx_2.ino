@@ -1,4 +1,3 @@
-// playload w start f setUP ----------------> WORKS WELL !
 #include <Arduino.h>
 
 // Define TX and RX pins for UART (change if needed)
