@@ -1,0 +1,6 @@
+## IMPORTANT
+- Connecting an analog pin of the FireBeetle 2 Board ESP32 C6 to the DHT22.
+- Connceting the Rx pin of the RF125-Transmitter to the Tx pin of the FireBeetle 2 Board ESP32 C6.
+- Once the DHT22 sense the Temperature and Humidity, it sends it back to the ESP32.
+- The value of the Temperature and Humidity are put in the data packet to sent it to the Transmitter through the jumpers.
+- The RF125 send the sensed data wirelessly.
