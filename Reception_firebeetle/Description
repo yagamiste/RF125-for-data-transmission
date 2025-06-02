@@ -1,1 +1,3 @@
 Connecting the the FireBeetle 2 Board ESP32 C6 to the receiver RF125-RA to plot what it is receiving.
+IMPORTANT:
+- Connect the Rx pin of the FireBeetle 2 Board ESP32 C6 to the Tx pin of the receiver RF125-RA.
