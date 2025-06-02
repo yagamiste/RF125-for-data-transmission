@@ -1,3 +1,3 @@
-# RF125_data_transmission_using_firebeetleFireBeetle 2 Board ESP32 C6
+# RF125_data_transmission_using_firebeetleFireBeetle_2_Board_ESP32_C6
 Exploring the wake-up device RF125 from Nice Rf to send and receive data through the micro-controller FireBeetle 2 Board ESP32 C6.
 
