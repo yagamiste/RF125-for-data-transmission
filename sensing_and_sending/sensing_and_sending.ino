@@ -1,5 +1,5 @@
-// envoyer la température et l'humidité                    ----
-// ******************* Result of the experiments: ****************** 
+// -------------------  Send  Temperature and Humidity    ------------------
+
 // 
 #include <Arduino.h>
 #include <DHT.h> 
