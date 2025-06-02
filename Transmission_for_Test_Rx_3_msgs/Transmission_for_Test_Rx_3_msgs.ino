@@ -1,6 +1,7 @@
-// On change f les messages                      ----
+// ------------- After sending messages of different sizes ----------------
+
 // ******************* Result of the experiments: ****************** 
-// Reeceived message = 8 * length of the playload i 
+// Reeceived message = 8 * length of the playload   
 #include <Arduino.h>
 
 // Define TX and RX pins for UART (change if needed)
@@ -21,13 +22,18 @@ uint8_t payloadCommand[] = {0x57, 0x05,0x01, 0x00,0x00,0x00,0x05, 0x0D, 0x0A};
 
 void setup() {
   Serial.begin(115200);
+  // ----------- Printing when the transmission start --------------
   Serial.println("ESP32 UART Transmitter");
   Serial.println("Sending data");
-  mySerial.begin(9600, SERIAL_8N1, RXD1, TXD1);  // UART setup
+
+  // ------------ UART setup --------------------
+  mySerial.begin(9600, SERIAL_8N1, RXD1, TXD1);
+
+  // ------------ Loading the message in the transmitter --------------- 
   mySerial.write(payloadCommand, sizeof(payloadCommand));
-  delay(3000); // to let the time to receive the playload
-  //mySerial.write(ID, sizeof(ID));
-  //delay(1000); // to let the time to receive the playload
+  delay(3000); // Waiting for the transmitter to receive the payloadCommand
+
+  // ----------- Command to start the transmission ---------------------
   mySerial.write(start, sizeof(start));
   delay(1000);
 }
