@@ -1,0 +1,1 @@
+Using a DHT22 to sense temperature.
