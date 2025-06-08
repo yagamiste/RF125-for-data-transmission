@@ -1,0 +1,8 @@
+- Sensing temperature and humidity using the DHT22 sensor:
+The DHT22 sensor is used to measure both temperature and humidity. It provides digital output with high accuracy and stability, making it suitable for environmental monitoring applications.
+
+- Including the sensed data in the payload:
+The temperature and humidity readings obtained from the DHT22 are formatted and integrated into the data payload. This payload is structured to be transmitted efficiently while preserving the integrity of the sensed information.
+
+- Transmitting the sensed data:
+Once the payload is prepared, it is transmitted wirelessly to the receiver. This allows remote monitoring of environmental conditions in real time.
