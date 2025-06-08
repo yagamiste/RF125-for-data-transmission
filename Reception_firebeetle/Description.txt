@@ -1,3 +1,8 @@
-Connecting the the FireBeetle 2 Board ESP32 C6 to the receiver RF125-RA to plot what it is receiving.
+- You can use this code to reed the packet outputted by either the Tx pin of the transmitter or the Tx pin of the receiver.
+- Refer to the datasheet to see the message which should be returned by the modules in case of succesfull configuration as well as in case of error.
+- You should connecti the the FireBeetle 2 Board ESP32 C6 to the receiver RF125-RA to plot what it is receiving.
+
 IMPORTANT:
 - Connect the Rx pin of the FireBeetle 2 Board ESP32 C6 to the Tx pin of the receiver RF125-RA.
+- Through my experiments: using the receiver I could only receive the length of the data.
+
